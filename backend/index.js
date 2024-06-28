@@ -6,7 +6,7 @@ const Connect = require('./Db/connect.js');
 const sendEmailRoute = require('./routes/sendEmailRoute.js');
 dotenv.config();
 const corsOptions={
-    origin:["https://deploy-mern-1whq.vercel.app"],
+    origin:true,
     methods:["POST","GET"],
     credentials:true
 }
